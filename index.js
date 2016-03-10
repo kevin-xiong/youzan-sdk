@@ -1,7 +1,7 @@
 var request = require('request');
 var url = require('url');
 var fs = require('fs');
-
+var Promise = require('promise');
 var Protocol = require('./src/protocol');
 
 function SDK(config) {
